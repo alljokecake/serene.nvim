@@ -1,0 +1,3 @@
+alacritty:
+> using `alacritty msg` subcommand
+font = 28
