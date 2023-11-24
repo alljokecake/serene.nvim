@@ -1,6 +1,6 @@
 local M = {}
 
-M.toggle_options = function()
+M.toggle = function()
     local options = {
         { name = "signcolumn",      type = "string" },
         { name = "number",          type = "boolean" },
@@ -20,3 +20,5 @@ M.toggle_options = function()
 end
 
 return M
+vim.api.nvim_command('command! serene lua require ("serene").toggle()')
+-- TODO: stop lsp?
