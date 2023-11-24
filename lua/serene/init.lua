@@ -20,5 +20,4 @@ M.toggle = function()
 end
 
 return M
-vim.api.nvim_command('command! serene lua require ("serene").toggle()')
 -- TODO: stop lsp?
